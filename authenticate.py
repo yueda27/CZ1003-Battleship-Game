@@ -7,6 +7,7 @@ class AuthException(Exception):
         self.username = username
         self.user = user
 class UsernameAlreadyExist(AuthException):
+    print('Hello')
     pass
 class PasswordTooShort(AuthException):
     pass
